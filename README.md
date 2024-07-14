@@ -3,6 +3,16 @@
 ## Introduction
 
 This project aims to predict stock prices using various machine learning models, leveraging both basic and advanced techniques. The project also predicts future stock prices for the next 30 days, which is the main focus. By analyzing historical stock data and incorporating news sentiment analysis, this project provides a comprehensive approach to stock price prediction.
+The Project helps in a clear understanding of how different prediction models perform in Stock Prediction. In most of the cases, Linear Regression and LSTM models outstand the performance by other models. Here are potential reasons for their relative strengths-
+Linear Regression: 
+Linear regression is straightforward to understand and implement. Its coefficients can provide insights into the relationship between features and the target variable (stock price).
+For datasets with linear relationships between features and the target, linear regression can be computationally efficient.
+It's often used as a baseline to compare against more complex models. Sometimes, a simple model can outperform complex ones when the underlying patterns are indeed linear.
+LSTM:
+Handling Time-Series Data: LSTM is specifically designed to handle sequential data, which is the nature of stock prices. It excels at capturing long-term dependencies and patterns that other models might struggle with.
+Nonlinear Relationships: Stock price movements often exhibit complex, nonlinear patterns. LSTM's ability to learn complex patterns can be advantageous in such cases.
+Feature Learning: LSTM can automatically learn relevant features from raw data, reducing the need for extensive feature engineering.
+while Linear Regression and LSTM have shown potential in stock price prediction, their success depends on various factors. It's crucial to experiment with different models, evaluate their performance rigorously, and consider the specific characteristics of the dataset and prediction task.
 
 ## Data Collection Using yFinance
 
