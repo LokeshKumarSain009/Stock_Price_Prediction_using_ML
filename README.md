@@ -50,14 +50,16 @@ The project is organized into six main files:
 1. **NewsArticleSentimentAnalysis.ipynb**: Performs news sentiment analysis about the company, providing insights into its reputation and public emotion.
 
 2. **DataCollection-preprocessing.ipynb**: Contains functions to collect historical data from yFinance and preprocess it for model training.
+  
+3. **Feature Engineering**: Adds technical market indicators to the dataframe. Also, it calculates the impact of each feature on the prediction of Close price. It was observed that many added features are not having significant impact on the predictions. So, better is to remove these features from the dataframe. 
 
-3. **BasicPredictionModels.ipynb**: Includes functions to train and visualize various basic prediction models such as Linear Regression, SVM, and Random Forest.
+4. **BasicPredictionModels.ipynb**: Includes functions to train and visualize various basic prediction models such as Linear Regression, SVM, and Random Forest.
 
-4. **NeuralNetworkModels.ipynb**: Contains functions to train and visualize neural network models like RNN and LSTM.
+5. **NeuralNetworkModels.ipynb**: Contains functions to train and visualize neural network models like RNN and LSTM.
 
-5. **ModelComparison.ipynb**: Compares the performance of all the prediction models used and returns the overall best predictor.
+6. **ModelComparison.ipynb**: Compares the performance of all the prediction models used and returns the overall best predictor.
 
-6. **StockPricePrediction.ipynb**: Acts as the main file for the project. It displays all the outputs and contains functions to predict stock prices for the next 30 days using the overall best predictor.
+7. **StockPricePrediction.ipynb**: Acts as the main file for the project. It displays all the outputs and contains functions to predict stock prices for the next 30 days using the overall best predictor.
 
 ### Advantages of Maintaining Separate Files
 
